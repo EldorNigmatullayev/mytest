@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.canvas{
+   width:700px ;
+   height:500px;
+   border: 3px solid #000;
+
+}
+
+.header{
+   width: 700px;
+   height: 50px;
+   background-color: rgb(237, 203, 159);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
+   border-radius: 10pc;
+}
+
+.chek{
+   width: 120px;
+   height: 80px;
+}
+
+.menu{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(236, 226, 226);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5pc;
+  
+}
+nav{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+}
+ .a{
+    background-color:white;
+    width: 50px;
+    border-radius: 2pc;
+ }
+ .b{
+    background-color:red ;
+    border-radius: 2pc;
+ }
+ .c{
+    background-color:pink;
+    border-radius: 2pc;
+ }
+ .d{
+    background-color: yellow;
+    border-radius: 2pc;
+ }
+ .i{
+    background-color: orange;
+    border-radius: 2pc;
+ }
+ .f{
+    background-color:blue;
+    border-radius: 2pc;
+ }
+
+
+
+
+
+ /* // const input = document.querySelector('input')
+// let clr = '#000'
+
+// input.addEventListener('input', ()=>{
+//     clr = input.value
+// })
+
+// canvas.addEventListener('mousedown', ()=>{
+//     canvas.addEventListener('mousemove', (el)=>{
+//         let mouseX = el.offsetX
+//         let mouseY = el.offsetY
+
+//         ctx.fillStyle = clr
+//         ctx.fillRect(mouseX, mouseY, 8, 8)
+//     })
+// })
+
+// canvas.addEventListener('mouseup', ()=>{
+//     canvas.addEventListener('mousedown', null)
+// }) */
